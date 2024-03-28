@@ -1,0 +1,11 @@
+.ant-steps-item-title {
+  overflow-x: hidden;
+}
+
+.ant-steps-item-icon {
+  overflow-x: hidden;
+}
+
+.ant-steps-item-container{
+width: fit-content;
+}

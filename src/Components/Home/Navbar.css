@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #176b87;
+    padding: 0.5rem 1rem;
+  }
+  
+  .right-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .Start-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+  }
+  
+  .navbar a:hover {
+    background-color: #555;
+  }

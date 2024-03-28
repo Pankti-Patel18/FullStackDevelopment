@@ -1,0 +1,76 @@
+.container_login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("./v915-wit-005-g.jpg") no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .form-container_login {
+    width: auto;
+    height: 100%;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    background: transparent;
+    backdrop-filter: blur(30px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-container_login h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black ;
+    font-size: 1.5em;
+  }
+  
+  label {
+    display: inline-block;
+    width: 80px;
+    margin: 10px 0;
+    color: #333;
+    font-size: 1em;
+  }
+  
+  input[type='text'],
+  input[type='password'],
+  select {  
+    width: calc(100% - 90px);
+    padding: 1rem;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    background:white;
+    border: 1px solid #ccc;
+    font-size: 0.8em;
+  }
+  
+  .radio-group {
+    margin: 10px 0;
+    color: #333;
+    font-size: 0.8em;
+  }
+  
+  .radio-group label {
+    margin-right: 20px;
+  }
+  
+.signupbutton {
+    background-color: #00a88e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-left: 30%;
+}
+  
+  .signupbutton:hover {
+    background-color: #45a049;
+  }

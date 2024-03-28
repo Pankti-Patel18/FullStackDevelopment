@@ -1,0 +1,95 @@
+.body_bus{
+  background: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  }
+.bus-form {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: auto;
+    margin: 5rem 0;
+    padding: 2rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+.input{
+background: transparent;
+border: none;
+border-bottom: 1px solid white;
+color: #ccc;
+}
+  .bus-form h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .form-group {
+    display: inline;
+    margin-bottom: 1rem;
+  }
+  
+  .form-group-Seats {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  
+  .label{
+      margin-right: 10px;
+      color: #ccc;
+    
+  
+  }
+  .des{
+      height: 8rem;
+      resize: none;
+      color: #ccc;
+  }
+  .form-group-Seats .input,
+  .form-group-Seats textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    color: #ccc;
+    border-radius: 5px;   
+    background: transparent;
+    resize: none;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .form-group textarea {
+    height: 10rem;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    outline: none;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+   button {
+    padding: 0.5rem;
+    width: 10rem;
+    background-color: #00a88e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    align-self: center;
+  }
+  
+   button:hover {
+    background-color: #ccc;
+  }
+  

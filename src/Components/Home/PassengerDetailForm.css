@@ -1,0 +1,56 @@
+.passenger-detail-form {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.passenger-detail-form h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.passenger-detail-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.passenger-detail-form input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.passenger-detail-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.passenger-detail-form button[type="submit"] {
+  background-color: #28a745;
+}
+
+.passenger-detail-form button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+.passenger-detail-form button[type="button"] {
+  background-color: #dc3545;
+}
+
+.passenger-detail-form button[type="button"]:hover {
+  background-color: #c82333;
+}
+
+.passenger-detail-form p {
+  margin-top: 15px;
+  color: #dc3545;
+  font-size: 0.9rem;
+}
